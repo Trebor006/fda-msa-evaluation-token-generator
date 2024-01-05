@@ -1,0 +1,12 @@
+server:
+  servlet:
+    context-path: /domain/flujos-admision/v1/token-generator
+  port: 8080
+
+spring:
+  application:
+    name: fda-msa-evaluation-token-generator
+  messages:
+    basename: i18n/messages
+    encoding: UTF-8
+

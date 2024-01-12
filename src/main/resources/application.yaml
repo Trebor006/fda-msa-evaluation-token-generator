@@ -10,3 +10,6 @@ spring:
     basename: i18n/messages
     encoding: UTF-8
 
+security:
+  secretKey: unaClaveSecretaMuyLarga12345678901234567890
+  expirationMilis: 10000

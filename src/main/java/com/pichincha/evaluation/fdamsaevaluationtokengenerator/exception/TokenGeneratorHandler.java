@@ -15,6 +15,7 @@ public class TokenGeneratorHandler {
 
   @ExceptionHandler({TokenGeneratorException.class})
   public ResponseEntity<ErrorDto> handleException(TokenGeneratorException tokenGeneratorException) {
+    log.error(tokenGeneratorException.getTitle() + " " + tokenGeneratorException.getDetail());
 
     return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
         .body(

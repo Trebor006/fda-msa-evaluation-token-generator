@@ -2,7 +2,6 @@ package com.pichincha.evaluation.fdamsaevaluationtokengenerator.configuration;
 
 import static lombok.AccessLevel.PRIVATE;
 
-import java.math.BigDecimal;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.experimental.FieldDefaults;
